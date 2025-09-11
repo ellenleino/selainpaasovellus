@@ -23,7 +23,9 @@ h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.colorswitch {}
+.colorswitch {
+    font-size: large;
+}
 
 .colorswitch p {
     color: rgb(255, 139, 251);
@@ -40,4 +42,19 @@ h3 {
 #lists {
     display: flex;
     justify-content: center;
+
+}
+
+ol {
+    background-color: blue;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+}
+
+ul {
+    background-color: blueviolet;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
 }
